@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D9B8A5;
+
+    
+}
+#conteneur{
+    width: 100%;
+}
+header{
+    width: 100%;  
+    background-color:black;
+    min-height: 310px
+}
+#hd{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+ul{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+
+
+
+
+    
+}
+#logo{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+
+
+}
+h1{
+    font-size: 3em;
+
+}
+li{
+    list-style-type: none;
+}
+#hd p{
+    margin-bottom: 50px;
+}
+header h1, header p, header nav{
+    margin: auto;
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    right: 40px;
+}
+nav{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+a{
+    text-decoration: none;
+    color: darkgray;
+}
+/* corps */
+#corps{
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+}
+#anno1{
+    display: flex;
+}
+#divtext{
+    width: 50%;
+    height: 500px;
+}
+#divmaj{
+    width: 50%;
+    height: 500px;
+    margin: 10px;
+    border-radius: 10px;
+}
+h2, p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    text-align: center;
+
+
+}
+#pdt{
+    text-align: center;
+    margin-top: 20px;
+}
+#butt{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+img{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px;
+    
+}
+#anno2{
+    display: flex;
+}
+img:hover{
+    transition: ease-out;
+}
+
+#anno3{
+    display: flex;
+}
+#anno4{
+    display: flex;
+}
+
+
+#buttcontact{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+
+footer{
+    background-color: black;
+    min-height: 500px;
+
+
+    
+}
+footer, h2{
+    text-align: center;
+}
+#cordo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#logofoot{
+    height: 100px;
+    width: 100px;
+}
+#ville{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#linkfoot{
+    margin-bottom: 0;
+}
+#send{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    
+
+}
+
+@media screen and (max-width:640px) {
+    #cordo{
+       display: grid;
+       grid-template-columns: 1fr;
+
+       }
+       
+    
+}
+@media screen and (max-width:330px){
+    nav ul{
+        display: inline;
+    }
+    ul{
+      
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    nav{
+        border-top: 0px;
+        border-bottom: 0px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    
+}
